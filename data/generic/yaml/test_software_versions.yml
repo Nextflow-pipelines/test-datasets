@@ -1,0 +1,4 @@
+${task.process}:
+  pandas: 2.2.0
+  python: 3.11.7
+  yaml: 6.0.1
