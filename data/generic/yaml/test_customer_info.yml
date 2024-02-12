@@ -2,17 +2,19 @@ CUSTOMER_INFORMATION:
   customer_inst: K562
   customer_name: "\u793E\u5185\u8A66\u9A13"
 EXPERIMENTS_INFORMATION:
-  analysis: ${analysis}
+  analysis: CAGE
   library_preparation_kit: CAGE
   rrna_removal: NoData
   sequencer: NextSeq 2000 System (Illumina)
 ORGANISM_INFORMATION:
   organism_name: Human
-  reference_name: ${params.genome}
+  reference_name: GRCh38
 SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.12C_UMI8b.1.IL.DFSS3.12C:
     calc_read_num_1: 28525692
     calc_read_num_2: 28525692
+    actual_read_num_1: 28525692
+    actual_read_num_2: 28525692
     fastq_1:
       1: 20230804/K562_DFSS3_1_Illumina_12c_S14_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_1_Illumina_12c_S9_R1_001.fastq.gz
@@ -26,6 +28,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.12C_UMI8b.2.IL.DFSS3.12C:
     calc_read_num_1: 31801170
     calc_read_num_2: 31801170
+    actual_read_num_1: 31801170
+    actual_read_num_2: 31801170
     fastq_1:
       1: 20230804/K562_DFSS3_2_Illumina_12c_S15_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_2_Illumina_12c_S10_R1_001.fastq.gz
@@ -39,6 +43,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.12C_UMI8b.3.IL.DFSS3.12C:
     calc_read_num_1: 29881088
     calc_read_num_2: 29881088
+    actual_read_num_1: 29881088
+    actual_read_num_2: 29881088
     fastq_1:
       1: 20230804/K562_DFSS3_3_Illumina_12c_S16_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_3_Illumina_12c_S11_R1_001.fastq.gz
@@ -52,6 +58,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.12C_UMI8b.4.IL.DFSS3.12C:
     calc_read_num_1: 35078064
     calc_read_num_2: 35078064
+    actual_read_num_1: 35078064
+    actual_read_num_2: 35078064
     fastq_1:
       1: 20230804/K562_DFSS3_4_Illumina_12c_S17_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_4_Illumina_12c_S12_R1_001.fastq.gz
@@ -65,6 +73,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.24C_UMI8b.1.IL.DFSS3.24C:
     calc_read_num_1: 36465299
     calc_read_num_2: 36465299
+    actual_read_num_1: 36465299
+    actual_read_num_2: 36465299
     fastq_1:
       1: 20230804/K562_DFSS3_1_Illumina_24c_S22_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_1_Illumina_24c_S17_R1_001.fastq.gz
@@ -78,6 +88,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.24C_UMI8b.2.IL.DFSS3.24C:
     calc_read_num_1: 33648802
     calc_read_num_2: 33648802
+    actual_read_num_1: 33648802
+    actual_read_num_2: 33648802
     fastq_1:
       1: 20230804/K562_DFSS3_2_Illumina_24c_S23_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_2_Illumina_24c_S18_R1_001.fastq.gz
@@ -91,6 +103,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.24C_UMI8b.3.IL.DFSS3.24C:
     calc_read_num_1: 36565566
     calc_read_num_2: 36565566
+    actual_read_num_1: 36565566
+    actual_read_num_2: 36565566
     fastq_1:
       1: 20230804/K562_DFSS3_3_Illumina_24c_S24_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_3_Illumina_24c_S19_R1_001.fastq.gz
@@ -104,6 +118,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3.24C_UMI8b.4.IL.DFSS3.24C:
     calc_read_num_1: 35611422
     calc_read_num_2: 35611422
+    actual_read_num_1: 35611422
+    actual_read_num_2: 35611422
     fastq_1:
       1: 20230804/K562_DFSS3_4_Illumina_24c_S25_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_4_Illumina_24c_S20_R1_001.fastq.gz
@@ -117,6 +133,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3_UMI8b.1.IL.DFSS3:
     calc_read_num_1: 20294524
     calc_read_num_2: 20294524
+    actual_read_num_1: 20294524
+    actual_read_num_2: 20294524
     fastq_1:
       1: 20230804/K562_DFSS3_1ul_1_S6_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_1ul_1_S1_R1_001.fastq.gz
@@ -130,6 +148,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3_UMI8b.2.IL.DFSS3:
     calc_read_num_1: 20524227
     calc_read_num_2: 20524227
+    actual_read_num_1: 20524227
+    actual_read_num_2: 20524227
     fastq_1:
       1: 20230804/K562_DFSS3_1ul_2_S7_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_1ul_2_S2_R1_001.fastq.gz
@@ -143,6 +163,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3_UMI8b.3.IL.DFSS3:
     calc_read_num_1: 21671382
     calc_read_num_2: 21671382
+    actual_read_num_1: 21671382
+    actual_read_num_2: 21671382
     fastq_1:
       1: 20230804/K562_DFSS3_1ul_3_S8_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_1ul_3_S3_R1_001.fastq.gz
@@ -156,6 +178,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.DFSS3_UMI8b.4.IL.DFSS3:
     calc_read_num_1: 19080812
     calc_read_num_2: 19080812
+    actual_read_num_1: 19080812
+    actual_read_num_2: 19080812
     fastq_1:
       1: 20230804/K562_DFSS3_1ul_4_S9_R1_001.fastq.gz
       2: 20230818/K562_DFSS3_1ul_4_S4_R1_001.fastq.gz
@@ -169,6 +193,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.12C_UMI8b.1.IL.THSS3.12C:
     calc_read_num_1: 31306603
     calc_read_num_2: 31306603
+    actual_read_num_1: 31306603
+    actual_read_num_2: 31306603
     fastq_1:
       1: 20230804/K562_THSS3_1_Illumina_12c_S18_R1_001.fastq.gz
       2: 20230818/K562_THSS3_1_Illumina_12c_S13_R1_001.fastq.gz
@@ -182,6 +208,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.12C_UMI8b.2.IL.THSS3.12C:
     calc_read_num_1: 35942648
     calc_read_num_2: 35942648
+    actual_read_num_1: 35942648
+    actual_read_num_2: 35942648
     fastq_1:
       1: 20230804/K562_THSS3_2_Illumina_12c_S19_R1_001.fastq.gz
       2: 20230818/K562_THSS3_2_Illumina_12c_S14_R1_001.fastq.gz
@@ -195,6 +223,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.12C_UMI8b.3.IL.THSS3.12C:
     calc_read_num_1: 29570523
     calc_read_num_2: 29570523
+    actual_read_num_1: 29570523
+    actual_read_num_2: 29570523
     fastq_1:
       1: 20230804/K562_THSS3_3_Illumina_12c_S20_R1_001.fastq.gz
       2: 20230818/K562_THSS3_3_Illumina_12c_S15_R1_001.fastq.gz
@@ -208,6 +238,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.12C_UMI8b.4.IL.THSS3.12C:
     calc_read_num_1: 31505915
     calc_read_num_2: 31505915
+    actual_read_num_1: 31505915
+    actual_read_num_2: 31505915
     fastq_1:
       1: 20230804/K562_THSS3_4_Illumina_12c_S21_R1_001.fastq.gz
       2: 20230818/K562_THSS3_4_Illumina_12c_S16_R1_001.fastq.gz
@@ -221,6 +253,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.24C_UMI8b.1.IL.THSS3.24C:
     calc_read_num_1: 35548420
     calc_read_num_2: 35548420
+    actual_read_num_1: 35548420
+    actual_read_num_2: 35548420
     fastq_1:
       1: 20230804/K562_THSS3_1_Illumina_24c_S26_R1_001.fastq.gz
       2: 20230818/K562_THSS3_1_Illumina_24c_S21_R1_001.fastq.gz
@@ -234,6 +268,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.24C_UMI8b.2.IL.THSS3.24C:
     calc_read_num_1: 35959576
     calc_read_num_2: 35959576
+    actual_read_num_1: 35959576
+    actual_read_num_2: 35959576
     fastq_1:
       1: 20230804/K562_THSS3_2_Illumina_24c_S27_R1_001.fastq.gz
       2: 20230818/K562_THSS3_2_Illumina_24c_S22_R1_001.fastq.gz
@@ -247,6 +283,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.24C_UMI8b.3.IL.THSS3.24C:
     calc_read_num_1: 38147770
     calc_read_num_2: 38147770
+    actual_read_num_1: 38147770
+    actual_read_num_2: 38147770
     fastq_1:
       1: 20230804/K562_THSS3_3_Illumina_24c_S28_R1_001.fastq.gz
       2: 20230818/K562_THSS3_3_Illumina_24c_S23_R1_001.fastq.gz
@@ -260,6 +298,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3.24C_UMI8b.4.IL.THSS3.24C:
     calc_read_num_1: 35580982
     calc_read_num_2: 35580982
+    actual_read_num_1: 35580982
+    actual_read_num_2: 35580982
     fastq_1:
       1: 20230804/K562_THSS3_4_Illumina_24c_S29_R1_001.fastq.gz
       2: 20230818/K562_THSS3_4_Illumina_24c_S24_R1_001.fastq.gz
@@ -273,6 +313,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3_UMI8b.1.IL.THSS3:
     calc_read_num_1: 41913985
     calc_read_num_2: 41913985
+    actual_read_num_1: 41913985
+    actual_read_num_2: 41913985
     fastq_1:
       1: 20230804/K562_THSS3_1ul_1_S10_R1_001.fastq.gz
       2: 20230818/K562_THSS3_1ul_1_S5_R1_001.fastq.gz
@@ -286,6 +328,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3_UMI8b.2.IL.THSS3:
     calc_read_num_1: 36497123
     calc_read_num_2: 36497123
+    actual_read_num_1: 36497123
+    actual_read_num_2: 36497123
     fastq_1:
       1: 20230804/K562_THSS3_1ul_2_S11_R1_001.fastq.gz
       2: 20230818/K562_THSS3_1ul_2_S6_R1_001.fastq.gz
@@ -299,6 +343,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3_UMI8b.3.IL.THSS3:
     calc_read_num_1: 34656866
     calc_read_num_2: 34656866
+    actual_read_num_1: 34656866
+    actual_read_num_2: 34656866
     fastq_1:
       1: 20230804/K562_THSS3_1ul_3_S12_R1_001.fastq.gz
       2: 20230818/K562_THSS3_1ul_3_S7_R1_001.fastq.gz
@@ -312,6 +358,8 @@ SAMPLE_INFORMATION:
   UMI8b.IL.THSS3_UMI8b.4.IL.THSS3:
     calc_read_num_1: 39212802
     calc_read_num_2: 39212802
+    actual_read_num_1: 39212802
+    actual_read_num_2: 39212802
     fastq_1:
       1: 20230804/K562_THSS3_1ul_4_S13_R1_001.fastq.gz
       2: 20230818/K562_THSS3_1ul_4_S8_R1_001.fastq.gz
