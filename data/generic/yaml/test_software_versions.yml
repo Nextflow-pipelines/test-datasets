@@ -3,3 +3,42 @@ SOFTWARE_VERSIONS:
     pandas: 2.2.0
     python: 3.11.7
     yaml: 6.0.1
+  CAT_FASTQ:
+    cat: 8.30
+  CUSTOM_DUMPSOFTWAREVERSIONS:
+    python: 3.12.1
+    yaml: 6.0.1
+  FASTQC_RAW:
+    fastqc: 0.12.1
+  FEATURECOUNTS:
+    subread: 2.0.1
+  GET_CTSS:
+    awk: 4.2.1
+    bedtools: 2.29.2
+    samtools: 1.10-88-g2281338
+  HTSEQ_COUNT:
+    htseq: 2.0.3
+  PARSEXLSX_SAMPLES:
+    pandas: 1.4.1
+    python: 3.8.18
+    yaml: 6.0.1
+  RSEM_CALCULATEEXPRESSION:
+    rsem: 1.3.1
+    star: 2.7.10a
+  RSEQC_INFEREXPERIMENT:
+    rseqc: 5.0.2
+  SEQKIT_STATS_RAW:
+    seqkit: 2.2.0
+  SEQKIT_STATS_TRIMMED:
+    seqkit: 2.2.0
+  STAR_ALIGN:
+    gawk: 5.1.0
+    samtools: '1.18'
+    star: 2.7.10a
+  STAR_GENOMEGENERATE:
+    gawk: 5.1.0
+    samtools: '1.18'
+    star: 2.7.10a
+  Workflow:
+    Nextflow: 23.12.0-edge
+    nf-core/mypipeline: 1.0dev
