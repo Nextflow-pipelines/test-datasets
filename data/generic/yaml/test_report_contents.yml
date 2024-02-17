@@ -1,0 +1,39 @@
+DOCUMENTS:
+  DATE: ""
+  CUSTOMERNAME: ""
+  CUSTOMERINSTITUTE: ""
+  ANALYSIS: ""
+  SEQUENCER: ""
+  RRNA: ""
+  LIBRARY: ""
+  COMMONNAME: ""
+  GENOMEASSEMBLY : ""
+PICTURES:
+  WORKFLOW:
+    filename: workflow.png
+    width: 7
+    height: 10
+    title: 図1. 解析ワークフロー
+  CONTENTS:
+    filename: contents.png
+    width: 10
+    height: 5
+    title: 図2. 解析フォルダ構成
+TABLES:
+  SAMPLES:
+    columns:
+      - Group
+      - Sample
+      - read_num
+      - min_len
+      - avg_len
+      - max_len
+  KITS:
+    columns:
+      - Step
+      - Kit
+  SOFTWARE:
+    columns:
+      - Process Name
+      - Software
+      - Version
